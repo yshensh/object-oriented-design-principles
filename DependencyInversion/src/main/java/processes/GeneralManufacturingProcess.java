@@ -20,9 +20,7 @@ public abstract class GeneralManufacturingProcess {
     protected abstract void storeDevice();
 
     public void launchProcess() {
-
         if(processName != null && !processName.isEmpty()) {
-
             assembleDevice();
             testDevice();
             packageDevice();
