@@ -2,9 +2,6 @@ package remotes;
 
 import devices.Device;
 
-/**
- * Created by yshen on 8/15/16.
- */
 public class RemoteControl {
 
     private Device device = null;

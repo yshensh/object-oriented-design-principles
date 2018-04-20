@@ -4,9 +4,6 @@ import devices.Device;
 import devices.Projector;
 import remotes.RemoteControl;
 
-/**
- * Created by yshen on 8/15/16.
- */
 public class Person {
     public static void main(String args[]) {
 

@@ -1,8 +1,5 @@
 package devices;
 
-/**
- * Created by yshen on 8/15/16.
- */
 public class Projector implements Device {
 
     public void turnOn() {

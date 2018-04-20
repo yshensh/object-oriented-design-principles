@@ -1,4 +1,3 @@
-# Liskov Substitution Principle
-Liskov Substitution Principle simply states that susbtypes (subclasses) must be substitutable for their basetypes (baseclass).
+[Liskov Substitution Principle](https://stackoverflow.com/questions/56860/what-is-an-example-of-the-liskov-substitution-principle) simply states that susbtypes (subclasses) must be substitutable for their basetypes (baseclass).
 
-In our example, if we design a base class called 'ClassTeacher' (which has method called 'teach()', the design of having class called 'SubstituteTeacher' (which does not teach) to inherit from the base class violates the LSP. Because 'SubstituteClass' doesn not 'teach()', having such design enforces the change in the existing methods in the base class 'ClassTeacher' because of the subclass. A good design that follows LSP is implemented here.
+In our example, if we design a base class called 'ClassTeacher' (which has method called 'teach()', the design of having class called 'SubstituteTeacher' (which does not teach) to inherit from the base class violates the LSP. Because 'SubstituteClass' doesn not 'teach()', having such design enforces the change in the existing methods in the base class 'ClassTeacher' because of the subclass.
